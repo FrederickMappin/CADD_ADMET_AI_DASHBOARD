@@ -17,12 +17,3 @@ def smiles_to_image(smiles: str):
     img = Draw.MolToImage(mol)
     return img
 
-# Example function to fetch data from a given source
-# Replace with actual data fetching logic
-def fetch_data():
-    return [1, 2, 3, 4, 5]  # Example data
-
-def visualize_data(data):
-    # Example function to visualize data
-    # Replace with actual visualization logic
-    return f"Visualizing data: {data}"
